@@ -7,7 +7,7 @@ export function Contact() {
     <main className="flex-1 w-full font-sans bg-white">
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 w-full overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-[600px] bg-gradient-to-b from-brand/10 via-brand/5 to-white pointer-events-none" />
         <div className="absolute top-0 left-0 right-0 h-full opacity-[0.03] bg-[linear-gradient(to_right,#000_1px,transparent_1px),linear-gradient(to_bottom,#000_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
         
@@ -121,7 +121,7 @@ export function Contact() {
               ></textarea>
               <button 
                 type="submit"
-                className="bg-brand text-slate-950 px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-brand-hover transition-colors shadow-sm"
+                className="bg-brand text-white px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-brand-hover transition-colors shadow-sm"
               >
                 Send Message Us <ArrowRight size={18} />
               </button>

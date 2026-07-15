@@ -8,7 +8,7 @@ export function Resources() {
     <main className="flex-1 w-full font-sans">
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
+      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 w-full overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-[600px] bg-gradient-to-b from-brand/10 via-brand/5 to-white pointer-events-none" />
         <div className="absolute top-0 left-0 right-0 h-full opacity-[0.03] bg-[linear-gradient(to_right,#000_1px,transparent_1px),linear-gradient(to_bottom,#000_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
         
@@ -126,7 +126,7 @@ export function Resources() {
               placeholder="Enter your email address" 
               className="flex-1 px-6 py-4 rounded-full bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-brand text-white placeholder:text-slate-400"
             />
-            <button type="submit" className="px-8 py-4 bg-brand text-slate-900 font-bold rounded-full hover:bg-white transition-colors whitespace-nowrap">
+            <button type="submit" className="px-8 py-4 bg-brand text-white font-bold rounded-full hover:bg-white transition-colors whitespace-nowrap">
               Subscribe Now
             </button>
           </form>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
+import { AnimatedBackground } from '../components/AnimatedBackground';
 import { 
   ArrowRight, LayoutDashboard, FileText, Settings, 
   LogOut, Search, Bell, ShieldCheck, Scale, Calculator, 
@@ -56,6 +57,7 @@ export function Home() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Background styling inspired by reference */}
+        <AnimatedBackground />
         <div className="absolute top-0 left-0 right-0 h-[800px] bg-gradient-to-b from-brand/10 via-brand/5 to-white pointer-events-none" />
         <div className="absolute top-0 left-0 right-0 h-full opacity-[0.03] bg-[linear-gradient(to_right,#000_1px,transparent_1px),linear-gradient(to_bottom,#000_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
         
@@ -86,7 +88,7 @@ export function Home() {
                 placeholder="Your email address" 
                 className="w-full pl-6 pr-4 py-3 bg-transparent border-none focus:outline-none text-slate-900" 
               />
-              <Link to="/contact" className="bg-brand text-slate-900 px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-brand-hover transition-colors whitespace-nowrap">
+              <Link to="/contact" className="bg-brand text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 hover:bg-brand-hover transition-colors whitespace-nowrap">
                 Free Consultation <ArrowRight size={16} />
               </Link>
             </div>
@@ -334,7 +336,7 @@ export function Home() {
                 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}
                 key={i} className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow group"
               >
-                <div className="w-14 h-14 rounded-2xl bg-brand/20 flex items-center justify-center text-slate-900 mb-6 group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-brand/20 flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform">
                   <feature.icon size={24} />
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
@@ -391,13 +393,13 @@ export function Home() {
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-sm font-semibold mb-6 border border-slate-200">
                 Proven Approach
               </div>
-              <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 A Comprehensive Solution to <br/> Resolve Tax Debt
               </h2>
               <p className="text-slate-500 text-lg mb-8 leading-relaxed">
                 Seamlessly navigate complex tax codes with the industry's leading experts. Whether it's individual tax preparation, corporate compliance, or aggressive IRS collections, our team is designed to protect you—so you can focus on what matters most.
               </p>
-              <Link to="/contact" className="inline-flex bg-slate-900 text-white px-6 py-3 rounded-full font-semibold items-center gap-2 hover:bg-brand hover:text-slate-900 transition-colors">
+              <Link to="/contact" className="inline-flex bg-slate-900 text-white px-6 py-3 rounded-full font-semibold items-center gap-2 hover:bg-brand hover:text-white transition-colors">
                 Free Case Review <ArrowRight size={16} />
               </Link>
             </motion.div>
@@ -459,11 +461,11 @@ export function Home() {
                   plan.isPopular ? "bg-white border-brand shadow-xl relative" : "bg-white border-slate-200 shadow-sm"
                 )}>
                   {plan.isPopular && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand text-slate-900 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide">
+                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wide">
                       Most Popular
                     </div>
                   )}
-                  <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-slate-900 mb-6">
+                  <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center text-white mb-6">
                     {i === 0 ? <FileText size={20}/> : i === 1 ? <Scale size={20}/> : <Shield size={20}/>}
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">{plan.name}</h3>
@@ -547,7 +549,7 @@ export function Home() {
             </motion.div>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-              className="text-3xl md:text-5xl font-bold text-slate-900 mb-6"
+              className="text-3xl md:text-5xl font-bold text-white mb-6"
             >
               Frequently Asked <br/> Questions
             </motion.h2>
@@ -598,10 +600,10 @@ export function Home() {
             <div className="inline-block bg-white text-slate-900 px-4 py-1.5 rounded-full text-sm font-semibold mb-8 shadow-sm">
               Regain your freedom
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Take the First Step Toward Financial Freedom
             </h2>
-            <p className="text-slate-800 text-lg mb-10 max-w-2xl mx-auto">
+            <p className="text-white text-lg mb-10 max-w-2xl mx-auto">
               Schedule your confidential consultation today. Let our experts review your case and build a customized defense strategy.
             </p>
             <Link to="/contact" className="bg-slate-900 text-white px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center gap-2 hover:bg-slate-800 transition-colors shadow-xl mx-auto text-lg">

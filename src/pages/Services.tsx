@@ -84,7 +84,7 @@ export function Services() {
         <div className="relative z-10 grid md:grid-cols-12 gap-6 max-w-6xl mx-auto mt-12 md:mt-20">
           <div className="md:col-span-7 rounded-3xl overflow-hidden h-[400px] md:h-[500px]">
             <img 
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=1200" 
+              src="/src/assets/images/team_collaboration_1784142027503.jpg" 
               alt="Team collaboration" 
               className="w-full h-full object-cover"
             />
@@ -92,7 +92,7 @@ export function Services() {
           <div className="md:col-span-5 flex flex-col gap-6">
             <div className="rounded-3xl overflow-hidden h-[240px]">
               <img 
-                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=800" 
+                src="/src/assets/images/business_meeting_1784141940620.jpg" 
                 alt="Business meeting" 
                 className="w-full h-full object-cover"
               />
@@ -103,7 +103,7 @@ export function Services() {
               <p className="text-slate-400 text-sm mb-6 leading-relaxed">
                 We provide everything you need to resolve debt, scale your business, and succeed financially.
               </p>
-              <Link to="/contact" className="inline-flex items-center gap-2 bg-brand text-slate-950 px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-brand-hover transition-colors self-start">
+              <Link to="/contact" className="inline-flex items-center gap-2 bg-brand text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:bg-brand-hover transition-colors self-start">
                 Request a Call <ArrowRight size={16} />
               </Link>
             </div>
@@ -222,7 +222,7 @@ export function Services() {
                 ></textarea>
                 <button 
                   type="submit"
-                  className="bg-brand text-slate-950 px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-brand-hover transition-colors shadow-sm"
+                  className="bg-brand text-white px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-brand-hover transition-colors shadow-sm"
                 >
                   Send Message Us <ArrowRight size={18} />
                 </button>
@@ -248,10 +248,10 @@ export function Services() {
             <div className="inline-block bg-white text-slate-900 px-5 py-2 rounded-full text-sm font-semibold mb-8 shadow-sm">
               Launch with ease
             </div>
-            <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Launch Your Free Trial Today
             </h2>
-            <p className="text-slate-800 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-white text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
               Experience the full power of our platform—free for 14 days. No credit card required, no strings attached.
             </p>
             <Link to="/contact" className="bg-slate-950 text-white px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center gap-3 hover:bg-slate-800 transition-colors shadow-2xl mx-auto text-lg group">

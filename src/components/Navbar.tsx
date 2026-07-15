@@ -69,7 +69,7 @@ export function Navbar() {
             </Link>
             <Link
               to="/contact"
-              className="bg-brand hover:bg-brand-hover text-secondary px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-sm hover:shadow active:scale-95 flex items-center gap-2"
+              className="bg-brand hover:bg-brand-hover text-white px-5 py-2.5 rounded-full font-semibold text-sm transition-all shadow-sm hover:shadow active:scale-95 flex items-center gap-2"
             >
               Free Consultation <ArrowRight size={16} />
             </Link>
@@ -132,7 +132,7 @@ export function Navbar() {
                 </Link>
                 <Link
                   to="/contact"
-                  className="bg-brand text-secondary p-4 rounded-xl font-semibold text-center shadow-md active:scale-95 transition-transform"
+                  className="bg-brand text-white p-4 rounded-xl font-semibold text-center shadow-md active:scale-95 transition-transform"
                 >
                   Free Consultation
                 </Link>

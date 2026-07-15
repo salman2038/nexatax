@@ -78,7 +78,7 @@ export function Article() {
           </p>
           <Link 
             to="/contact" 
-            className="inline-block bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-brand hover:text-slate-900 transition-all shadow-md"
+            className="inline-block bg-slate-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-brand hover:text-white transition-all shadow-md"
           >
             Get in Touch
           </Link>

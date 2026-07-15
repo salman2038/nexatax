@@ -45,7 +45,7 @@ export function About() {
           <div className="grid md:grid-cols-12 gap-6 relative">
             <div className="md:col-span-9 rounded-3xl overflow-hidden aspect-[16/9] md:aspect-auto md:h-[500px]">
               <img 
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200" 
+                src="/src/assets/images/team_collaboration_1784142027503.jpg" 
                 alt="Team meeting" 
                 className="w-full h-full object-cover"
               />
@@ -81,7 +81,7 @@ export function About() {
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-sm font-semibold mb-6 border border-slate-200">
                 Why Choose Us
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 Discover why leading clients choose us
               </h2>
               <p className="text-slate-500 text-lg mb-10 leading-relaxed">
@@ -89,7 +89,7 @@ export function About() {
               </p>
               <div className="rounded-3xl overflow-hidden aspect-[4/3]">
                 <img 
-                  src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&q=80&w=800" 
+                  src="/src/assets/images/business_meeting_1784141940620.jpg" 
                   alt="Business meeting" 
                   className="w-full h-full object-cover"
                 />
@@ -152,7 +152,7 @@ export function About() {
             {/* Left Large Image */}
             <div className="bg-slate-100 rounded-[2.5rem] p-8 md:p-12 relative overflow-hidden flex flex-col justify-end min-h-[500px]">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" 
+                src="/src/assets/images/team_collaboration_1784142027503.jpg" 
                 alt="Team collaboration" 
                 className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60"
               />
@@ -179,8 +179,8 @@ export function About() {
 
               {/* Bottom Left Light Green */}
               <div className="bg-brand rounded-[2.5rem] p-8 md:p-10 flex flex-col justify-center">
-                <div className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">$100M+</div>
-                <div className="text-slate-800 font-medium leading-snug">Tax Liabilities<br/>Resolved</div>
+                <div className="text-4xl md:text-5xl font-bold text-white mb-4">$100M+</div>
+                <div className="text-white font-medium leading-snug">Tax Liabilities<br/>Resolved</div>
               </div>
 
               {/* Bottom Right Dark */}
@@ -239,10 +239,10 @@ export function About() {
             <div className="inline-block bg-white text-slate-900 px-5 py-2 rounded-full text-sm font-semibold mb-8 shadow-sm">
               Launch with ease
             </div>
-            <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Take the First Step Toward Financial Freedom
             </h2>
-            <p className="text-slate-800 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-white text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
               Experience the full power of our expertise—free consultation. No credit card required, no strings attached.
             </p>
             <Link to="/contact" className="bg-slate-950 text-white px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center gap-3 hover:bg-slate-800 transition-colors shadow-2xl mx-auto text-lg group">
