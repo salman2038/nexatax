@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-brand: #FA5A2A;
+  --color-brand-hover: #E34C1B;
+  --color-secondary: #2C333D;
+}
+
+body {
+  @apply bg-white text-secondary antialiased;
+}
+
+/* Hide scrollbar for a cleaner SaaS look on horizontal scrolls */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
