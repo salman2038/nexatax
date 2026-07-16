@@ -81,7 +81,7 @@ export function About() {
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-sm font-semibold mb-6 border border-slate-200">
                 Why Choose Us
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                 Discover why leading clients choose us
               </h2>
               <p className="text-slate-500 text-lg mb-10 leading-relaxed">

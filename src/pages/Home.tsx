@@ -107,7 +107,7 @@ export function Home() {
               <div className="w-6 h-6 bg-slate-900 rounded-full flex items-center justify-center">
                  <div className="w-1.5 h-1.5 bg-brand rounded-full"></div>
               </div> 
-              JITFS Portal
+              NexaTax Portal
             </div>
             <div className="flex items-center gap-3 bg-white shadow-sm p-3 rounded-xl font-medium text-sm"><LayoutDashboard size={18}/> Case Overview</div>
             <div className="flex items-center gap-3 text-slate-500 hover:bg-slate-100 transition-colors p-3 rounded-xl font-medium text-sm"><FileText size={18}/> Tax Documents</div>
@@ -172,7 +172,7 @@ export function Home() {
                  <div className="relative w-32 h-32 mx-auto mt-4">
                     <svg viewBox="0 0 100 100" className="w-full h-full transform -rotate-90">
                       <circle cx="50" cy="50" r="40" fill="none" stroke="#f1f5f9" strokeWidth="20" />
-                      <circle cx="50" cy="50" r="40" fill="none" stroke="#c1f03b" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="62.8" className="transition-all" />
+                      <circle cx="50" cy="50" r="40" fill="none" stroke="#FA5A2A" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="62.8" className="transition-all" />
                       <circle cx="50" cy="50" r="40" fill="none" stroke="#0f172a" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="188.4" className="transition-all" />
                     </svg>
                  </div>
@@ -393,7 +393,7 @@ export function Home() {
               <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-slate-100 text-slate-800 text-sm font-semibold mb-6 border border-slate-200">
                 Proven Approach
               </div>
-              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+              <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
                 A Comprehensive Solution to <br/> Resolve Tax Debt
               </h2>
               <p className="text-slate-500 text-lg mb-8 leading-relaxed">
@@ -409,7 +409,7 @@ export function Home() {
                  <svg viewBox="0 0 100 100" className="w-3/4 h-3/4 transform -rotate-90">
                     <circle cx="50" cy="50" r="40" fill="none" stroke="#f8fafc" strokeWidth="20" />
                     <circle cx="50" cy="50" r="40" fill="none" stroke="#0f172a" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="50" />
-                    <circle cx="50" cy="50" r="40" fill="none" stroke="#c1f03b" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="150" />
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#FA5A2A" strokeWidth="20" strokeDasharray="251.2" strokeDashoffset="150" />
                  </svg>
                  <div className="absolute bottom-10 flex gap-4 bg-white p-4 rounded-2xl shadow-xl text-sm">
                    <div className="flex items-center gap-2"><div className="w-3 h-3 bg-slate-900 rounded-full"/> <span className="font-semibold">Total Debt</span></div>
@@ -549,7 +549,7 @@ export function Home() {
             </motion.div>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-              className="text-3xl md:text-5xl font-bold text-white mb-6"
+              className="text-3xl md:text-5xl font-bold text-slate-900 mb-6"
             >
               Frequently Asked <br/> Questions
             </motion.h2>
