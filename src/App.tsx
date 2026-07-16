@@ -9,9 +9,11 @@ import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Services } from './pages/Services';
+import { Pricing } from './pages/Pricing';
 import { Resources } from './pages/Resources';
 import { Article } from './pages/Article';
 import { Contact } from './pages/Contact';
+import { Career } from './pages/Career';
 import { ScrollToTop } from './components/ScrollToTop';
 
 export default function App() {
@@ -24,9 +26,11 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/resources/:id" element={<Article />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/career" element={<Career />} />
         </Routes>
         <Footer />
       </div>

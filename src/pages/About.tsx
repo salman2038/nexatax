@@ -7,10 +7,10 @@ import {
 import { cn } from '../lib/utils';
 
 const teamMembers = [
-  { name: 'Eric Jackson', role: 'Founder & Lead Tax Consultant', img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400&h=500' },
-  { name: 'Sarah Jenkins', role: 'Senior Tax Attorney', img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400&h=500' },
-  { name: 'David Thompson', role: 'CPA, Tax Preparation', img: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400&h=500' },
-  { name: 'Elena Martinez', role: 'Client Success Manager', img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400&h=500' }
+  { name: 'Eric Jackson', role: 'Founder & Lead Tax Consultant', img: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=500' },
+  { name: 'Sarah Jenkins', role: 'Senior Tax Attorney', img: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=500' },
+  { name: 'David Thompson', role: 'CPA, Tax Preparation', img: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=500' },
+  { name: 'Elena Martinez', role: 'Client Success Manager', img: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=500' }
 ];
 
 const brands = ['Inc 5000', 'Deloitte Fast 500', 'Forbes 1000', 'Clutch Top 1000', 'Dot Comm Award', 'Horizon Gold'];
@@ -45,7 +45,7 @@ export function About() {
           <div className="grid md:grid-cols-12 gap-6 relative">
             <div className="md:col-span-9 rounded-3xl overflow-hidden aspect-[16/9] md:aspect-auto md:h-[500px]">
               <img 
-                src="/src/assets/images/team_collaboration_1784142027503.jpg" 
+                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Team meeting" 
                 className="w-full h-full object-cover"
               />
@@ -58,7 +58,7 @@ export function About() {
               </p>
               <div className="flex items-center gap-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=100&h=100" 
+                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=500" 
                   alt="Eric Jackson" 
                   className="w-12 h-12 rounded-full object-cover border-2 border-slate-800"
                 />
@@ -89,7 +89,7 @@ export function About() {
               </p>
               <div className="rounded-3xl overflow-hidden aspect-[4/3]">
                 <img 
-                  src="/src/assets/images/business_meeting_1784141940620.jpg" 
+                  src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Business meeting" 
                   className="w-full h-full object-cover"
                 />
@@ -152,7 +152,7 @@ export function About() {
             {/* Left Large Image */}
             <div className="bg-slate-100 rounded-[2.5rem] p-8 md:p-12 relative overflow-hidden flex flex-col justify-end min-h-[500px]">
               <img 
-                src="/src/assets/images/team_collaboration_1784142027503.jpg" 
+                src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Team collaboration" 
                 className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-60"
               />

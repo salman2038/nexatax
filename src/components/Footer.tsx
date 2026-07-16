@@ -38,6 +38,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-slate-500">
               <li><Link to="/about" className="hover:text-brand transition-colors">About Us</Link></li>
               <li><Link to="/about" className="hover:text-brand transition-colors">Our Team</Link></li>
+              <li><Link to="/career" className="hover:text-brand transition-colors">Careers</Link></li>
               <li><Link to="/resources" className="hover:text-brand transition-colors">Latest News</Link></li>
               <li><Link to="/contact" className="hover:text-brand transition-colors">Contact Us</Link></li>
             </ul>

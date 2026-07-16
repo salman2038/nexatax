@@ -84,7 +84,7 @@ export function Services() {
         <div className="relative z-10 grid md:grid-cols-12 gap-6 max-w-6xl mx-auto mt-12 md:mt-20">
           <div className="md:col-span-7 rounded-3xl overflow-hidden h-[400px] md:h-[500px]">
             <img 
-              src="/src/assets/images/team_collaboration_1784142027503.jpg" 
+              src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" 
               alt="Team collaboration" 
               className="w-full h-full object-cover"
             />
@@ -92,7 +92,7 @@ export function Services() {
           <div className="md:col-span-5 flex flex-col gap-6">
             <div className="rounded-3xl overflow-hidden h-[240px]">
               <img 
-                src="/src/assets/images/business_meeting_1784141940620.jpg" 
+                src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Business meeting" 
                 className="w-full h-full object-cover"
               />
